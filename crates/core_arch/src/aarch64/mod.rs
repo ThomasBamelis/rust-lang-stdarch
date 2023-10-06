@@ -6,6 +6,9 @@
 //! [arm_ref]: http://infocenter.arm.com/help/topic/com.arm.doc.ihi0073a/IHI0073A_arm_neon_intrinsics_ref.pdf
 //! [arm_dat]: https://developer.arm.com/technologies/neon/intrinsics
 
+mod sve;
+pub use self::sve::*;
+
 mod neon;
 pub use self::neon::*;
 
